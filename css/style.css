@@ -1,6 +1,11 @@
-/** {
+* {
     box-sizing: border-box;
-}*/
+}
+
+body, html {
+  width: 100%;
+  height: 100%; 
+}
 
 body {
     margin: 0;
@@ -8,17 +13,17 @@ body {
     overflow: hidden;
 }
 
-
-html {
-    background-image: url(img/bg.png);
+body {
+    background-image: url(img/bg.jpg);
     background-position: center 5px;
     background-size: 860px 970px;
     position:relative;
     background-repeat: no-repeat;
-/*    background-color: black;*/
+    background-color: black;
 }
 
-/*#replaybutton {
+
+#replaybutton {
 	boarder: none; 
 	opacity:0; 
 	position: absolute; 
@@ -27,4 +32,4 @@ html {
 	left: 1120px; 
 	top: 766px; 
 	display: none; 
-}*/
+}

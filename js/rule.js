@@ -53,20 +53,21 @@ setInterval(function(){
             )
         )
     )
+    	
     {
-        World.remove(world,[strengthen, BlueL, GreenI2, GreenZ, OrangeL, YellowL, blue, green, yellow, red, orange, cover, ground1, ground2, sideA, sideB]);
-        var smaileface = Bodies.rectangle($(window).width()/2,500,860,970,{
-            isStatic:true,
-            render:{
-                sprite: {
-                    texture: 'img/smaileface.png',
-                    xScale: 1.05,
-                    yScale: 1.05
-                }
+    World.remove(world,[strengthen, BlueL, GreenI2, GreenZ, OrangeL, YellowL, blue, green, yellow, red, orange, cover, ground1, ground2, sideA, sideB]);
+    var smaileface = Bodies.rectangle($(window).width()/2,500,860,970,{
+        isStatic:true,
+        render:{
+            sprite: {
+                texture: 'img/smaileface.png',
+                xScale: 1.05,
+                yScale: 1.05
             }
-        });
-        World.add(world, smaileface);
-        document.getElementById('replaybutton').style.display = 'block';
+        }
+    });
+    World.add(world, smaileface);
+      document.getElementById('replaybutton').style.display = 'block';
     }
 
 },200);
