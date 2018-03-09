@@ -5,4 +5,25 @@
 body {
     margin: 0;
     padding: 0;
+    overflow: hidden;
+}
+
+html{
+	background-image:url(img/bg.png);
+	background-position: center 5px;
+	background-size: 860px 970px;
+	position:relative;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+
+button {
+	boarder: none; 
+	opacity:0; 
+	position: absolute; 
+	width: 28px; 
+	height: 50px; 
+	left: 1120px; 
+	top: 766px; 
+	display: none;
 }
